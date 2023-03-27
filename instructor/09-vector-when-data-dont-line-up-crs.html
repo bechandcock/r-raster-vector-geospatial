@@ -199,7 +199,7 @@
 <div class="accordion accordion-flush" id="accordionFlush7">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading7">
-        <a href="06-vector-open-shapefile-in-r.html">6. Open and Plot Shapefiles</a>
+        <a href="06-vector-open-vectorlayer-in-r.html">6. Open and Plot Vector Layers in R</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -208,7 +208,7 @@
 <div class="accordion accordion-flush" id="accordionFlush8">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading8">
-        <a href="07-vector-shapefile-attributes-in-r.html">7. Explore and Plot by Vector Layer Attributes</a>
+        <a href="07-vector-layer-attributes-in-r.html">7. Explore and Plot by Vector Layer Attributes</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -217,7 +217,7 @@
 <div class="accordion accordion-flush" id="accordionFlush9">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading9">
-        <a href="08-vector-plot-shapefiles-custom-legend.html">8. Plot Multiple Shapefiles</a>
+        <a href="08-vector-plot-layers-custom-legend.html">8. Plot Multiple Vector Layers</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -334,12 +334,12 @@
         <!-- START: inst/pkgdown/templates/content-instructor.html -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="../instructor/08-vector-plot-shapefiles-custom-legend.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link" href="../instructor/08-vector-plot-layers-custom-legend.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/10-vector-csv-to-shapefile-in-r.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/08-vector-plot-shapefiles-custom-legend.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Plot Multiple</a>
+        <a class="chapter-link" href="../instructor/08-vector-plot-layers-custom-legend.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Plot Multiple</a>
         <a class="chapter-link float-end" href="../instructor/10-vector-csv-to-shapefile-in-r.html" rel="next">Next: Convert from .csv to... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
@@ -402,8 +402,8 @@ study site using United States state and country boundary information
 accessed from the <a href="https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html" class="external-link">United
 States Census Bureau</a>. We will learn how to map vector data that are
 in different CRSs and thus don’t line up on a map.</p>
-<p>We will continue to work with the three shapefiles that we loaded in
-the <a href="06-vector-open-shapefile-in-r/">Open and Plot Shapefiles in
+<p>We will continue to work with the three ESRI shapefiles that we loaded as vector layers in
+the <a href="06-vector-open-vectorlayer-in-r/">Open and Plot Vector Layers in
 R</a> episode.</p>
 <section id="working-with-spatial-data-from-different-sources"><h2 class="section-heading">Working With Spatial Data From Different Sources<a class="anchor" aria-label="anchor" href="#working-with-spatial-data-from-different-sources"></a>
 </h2>
@@ -437,7 +437,7 @@ packages in this episode.</p>
 to create a basemap. Some R packages even have these base layers built
 in to support quick and efficient mapping. In this episode, we will use
 boundary layers for the contiguous United States, provided by the <a href="https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html" class="external-link">United
-States Census Bureau</a>. It is useful to have shapefiles to work with
+States Census Bureau</a>. It is useful to have vector layers such as ESRI shapefiles to work with
 because we can add additional attributes to them if need be - for
 project specific mapping.</p>
 </section><section id="read-us-boundary-file"><h2 class="section-heading">Read US Boundary File<a class="anchor" aria-label="anchor" href="#read-us-boundary-file"></a>
@@ -762,12 +762,12 @@ the same CRS.</li>
 </div>
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link" href="../instructor/08-vector-plot-shapefiles-custom-legend.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
+        <a class="chapter-link" href="../instructor/08-vector-plot-layers-custom-legend.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
         <a class="chapter-link float-end" href="../instructor/10-vector-csv-to-shapefile-in-r.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link" href="../instructor/08-vector-plot-shapefiles-custom-legend.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Plot Multiple</a>
+        <a class="chapter-link" href="../instructor/08-vector-plot-layers-custom-legend.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Plot Multiple</a>
         <a class="chapter-link float-end" href="../instructor/10-vector-csv-to-shapefile-in-r.html" rel="next">Next: Convert from .csv to... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
     </nav></div> <!-- / div.primary-content.col-xs-12 -->
